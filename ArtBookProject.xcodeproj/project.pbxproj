@@ -14,6 +14,8 @@
 		9642DD0A2AB5F46A00D6D536 /* ArtBookProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9642DD082AB5F46A00D6D536 /* ArtBookProject.xcdatamodeld */; };
 		9642DD0C2AB5F47100D6D536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9642DD0B2AB5F47100D6D536 /* Assets.xcassets */; };
 		9642DD0F2AB5F47100D6D536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9642DD0D2AB5F47100D6D536 /* LaunchScreen.storyboard */; };
+		9642DD172AB5F70600D6D536 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9642DD162AB5F70600D6D536 /* DetailsViewController.swift */; };
+		9642DD192AB744FE00D6D536 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9642DD182AB744FE00D6D536 /* data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9642DD0B2AB5F47100D6D536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9642DD0E2AB5F47100D6D536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9642DD102AB5F47100D6D536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9642DD162AB5F70600D6D536 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9642DD182AB744FE00D6D536 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				9642DD0D2AB5F47100D6D536 /* LaunchScreen.storyboard */,
 				9642DD102AB5F47100D6D536 /* Info.plist */,
 				9642DD082AB5F46A00D6D536 /* ArtBookProject.xcdatamodeld */,
+				9642DD162AB5F70600D6D536 /* DetailsViewController.swift */,
+				9642DD182AB744FE00D6D536 /* data.swift */,
 			);
 			path = ArtBookProject;
 			sourceTree = "<group>";
@@ -142,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9642DD0A2AB5F46A00D6D536 /* ArtBookProject.xcdatamodeld in Sources */,
+				9642DD192AB744FE00D6D536 /* data.swift in Sources */,
 				9642DD042AB5F46A00D6D536 /* ViewController.swift in Sources */,
 				9642DD002AB5F46A00D6D536 /* AppDelegate.swift in Sources */,
 				9642DD022AB5F46A00D6D536 /* SceneDelegate.swift in Sources */,
+				9642DD172AB5F70600D6D536 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
